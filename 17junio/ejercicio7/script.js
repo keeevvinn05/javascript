@@ -3,16 +3,7 @@
 const entrada1 = prompt("ingresa la circunferencia:");
 
 
-
-
-
-
-
-
 const radio = Number(entrada1);
-
-
-
 
 const circunferencia = 2 * radio * (Math.PI)
 

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <title>javaScript</title>
+</head>
+<body>
+  <h1>ejercicios interactivos matematicos</h1>
+  <div class="container">
+    <div class="card">
+      <h2>1.perimetro de un rectangulo</h2>
+      <!--for="baseRect" = id="baseRect crea una relacion que al dar click en el label me dirige al input-->
+      <label for="baseRect">base:</label>
+      <input type="number" id="baseRect" placeholder="ingresa la base">
+       <label for="alturaRect">altura:</label>
+      <input type="number" id="alturaRect" placeholder="ingresa la altura">
+
+      <button onclick="calcularPerimetro()">calcular</button>
+      <p class="result" id="resPerimetro"></p>
+    </div>
+
+   <div class="card">
+    <h2>2. celsius a fahrenheit</h2>
+    <label for="celsius">grados celsius:</label>
+    <input type="number" id="celsius" placeholder=" (°C)">
+    <button onclick="convertirFahrenheit()">convertir</button>
+    <p class="result" id="resFahrenheit"></p>
+   </div>
+   
+<div class="card">
+      <h2>1.area de un triangulo</h2>
+      <!--for="baseRect" = id="baseRect crea una relacion que al dar click en el label me dirige al input-->
+      <label for="basetri">base:</label>
+      <input type="number" id="basetri" placeholder="ingresa la base">
+       <label for="alturatri">altura:</label>
+      <input type="number" id="alturatri" placeholder="ingresa la altura">
+
+      <button onclick="calcularArea()">calcular</button>
+      <p class="result" id="resArea"></p>
+      </div>
+   
+
+<div class="card">
+  <h2>1. Circunferencia</h2>
+  <label for="radiocirc">Radio:</label>
+  <input type="number" id="radiocirc" placeholder="Ingresa el radio" />
+
+  <button onclick="calcularCircunferencia()">Calcular</button>
+  <p class="result" id="rescircunferencia"></p>
+</div>
+
+
+<div class="card">
+  <h2>2. Precio con Descuento</h2>
+  <label for="precio">Precio:</label>
+  <input type="number" id="precio" placeholder="Ingresa el precio" />
+
+  <label for="descuento">Descuento (%):</label>
+  <input type="number" id="descuento" placeholder="Ingresa el descuento" />
+
+  <button onclick="calcularPrecioDescuento()">Calcular</button>
+  <p class="result" id="resprecio"></p>
+</div>
+
+
+
+  </div>
+</body>
+</html>
